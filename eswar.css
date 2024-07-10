@@ -1,0 +1,105 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f0f8ff;
+}
+
+/* Header Styles */
+header {
+    background: #4682b4;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styles */
+main {
+    padding: 1rem 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    background: #87cefa;
+    padding: 0.5rem;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Contact Form Styles */
+#contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+textarea {
+    width: 100%;
+    max-width: 600px;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+button {
+    background: #4682b4;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #4169e1;
+}
+
+#responseMessage {
+    margin-top: 1rem;
+    color: #006400;
+}
+
+/* Footer Styles */
+footer {
+    background: #4682b4;
+    color: #fff;
+    padding: 0.5rem 0;
+    text-align: center;
+}
